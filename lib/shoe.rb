@@ -1,3 +1,7 @@
 class Shoe
-  def initialized(shoe)
+  attr_reader :brand
+  def initialized(brand)
+    @brand = brand
+  end
+  
 end
